@@ -5,14 +5,14 @@ export default function Lastpage() {
     <div className="grid max-md:grid-cols-2 grid-cols-4 font-josefin_slob backdrop-blur-md content-center text-center w-screen">
       <div className="w-full space-y-6">
         <span className="font-extrabold max-md:text-2xl text-4xl">Titify</span>
-        <div className="flex flex-col space-y-3 max-md:text-base text-xl text-white/60">
+        <div className="flex flex-col space-y-3 max-md:text-base text-xl text-black/60">
           <button>About</button>
           <button>Contact us</button>
         </div>
       </div>
       <div className="w-full space-y-6">
         <span className="font-extrabold max-md:text-2xl text-4xl">Sell</span>
-        <div className="flex flex-col space-y-3 max-md:text-base text-xl text-white/60">
+        <div className="flex flex-col space-y-3 max-md:text-base text-xl text-black/60">
           <button>Sell Online</button>
           <button>Payments</button>
           <button>Marketing</button>
@@ -22,7 +22,7 @@ export default function Lastpage() {
       </div>
       <div className="w-full space-y-6">
         <span className="font-extrabold max-md:text-2xl text-4xl">Build</span>
-        <div className="flex flex-col space-y-3 max-md:text-base text-xl text-white/60">
+        <div className="flex flex-col space-y-3 max-md:text-base text-xl text-black/60">
           <button>For Developers</button>
           <button>Dev Resources</button>
         </div>
@@ -31,7 +31,7 @@ export default function Lastpage() {
         <span className="font-extrabold max-md:text-2xl text-4xl">
           Resources
         </span>
-        <div className="flex flex-col space-y-3 max-md:text-base text-xl text-white/60">
+        <div className="flex flex-col space-y-3 max-md:text-base text-xl text-black/60">
           <button>Blog</button>
           <button>Documentation</button>
           <button>Support</button>
