@@ -151,6 +151,27 @@ module.exports = {
         surfaceVariant90: "var(--mdc-palette-neutral-variant90)",
         surfaceVariant100: "var(--mdc-palette-neutral-variant100)",
       },
+      keyframes: {
+        wiggle: {
+          "0%,100%": { transform: "rotate(-15deg)" },
+          "50%": { transform: "rotate(15deg)" },
+        },
+        movetoleft: {
+          "0%": { translate: "none" },
+          "100%": { translate: "-1000px" },
+        },
+        menuanimation: {
+          "0%": { width: "0px" },
+          "100%": { width: "50%" },
+          "0%": { width: "0px" },
+        },
+      },
+      animation: {
+        wiggle: "wiggle 0.7s ease-in-out 1",
+        menuanimationon: "menuanimation 0.5s ease-in-out 1",
+        menuanimationoff: "menuanimation 0.5s ease-in-out 1 reverse",
+        movetoleft: "movetoleft 40s infinite linear",
+      },
     },
   },
   plugins: [],

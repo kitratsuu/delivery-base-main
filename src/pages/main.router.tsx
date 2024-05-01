@@ -1,11 +1,18 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
-import HomePage from "./home-page";
+import { Routes, Route, Navigate } from "react-router-dom";
+import Userpage from "./afterlogin/userpage";
+import Loginpage from "./authentication/login";
+import Signuppage from "./authentication/signup";
+import Homepage from "./homepage";
 
 export const MainRouter = () => {
   return (
     <Routes>
-      <Route index element={<HomePage />} />
+      <Route path="*" element={<Navigate to={""} />} />
+
+      <Route index element={<Homepage />} />
+      <Route path="login" element={<Loginpage />} />
+      <Route path="signup" element={<Signuppage />} />
     </Routes>
   );
 };
